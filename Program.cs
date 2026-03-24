@@ -5,7 +5,7 @@
 //Atv4.Executar();
 //Atv5.Executar();
 //Atv6.Executar();
-//Atv7.Executar();
+Atv7.Executar();
 //Atv8.Executar();
 //Atv9.Executar();
-Atv10.Executar();
+//Atv10.Executar();

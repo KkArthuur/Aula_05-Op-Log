@@ -26,7 +26,7 @@ public static class Atv7
         }
         else if ( peso > 60)
         {
-            Console.WriteLine("Não, você não pode doar sangue, pois, sua idade é menor que 18 ou maior que 67");
+            Console.WriteLine("Não, você não pode doar sangue, pois, sua idade não está dentro dos limites impostos");
         }
         else
         {

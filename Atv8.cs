@@ -55,6 +55,8 @@ public static class Atv8
         {
             nR++;
         }
+
+
         if (nR == 5)
         {
             Console.WriteLine("Você é o assassino");

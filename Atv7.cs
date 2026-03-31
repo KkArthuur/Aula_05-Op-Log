@@ -16,7 +16,7 @@ public static class Atv7
         Console.WriteLine("Digite seu peso: ");
         double peso = double.Parse(Console.ReadLine()!);
 
-        if (idade >= 18 && idade <= 67 && peso > 60 )
+        if (idade >= 18 && idade <= 67 && peso > 60)
         {
             Console.WriteLine("Sim você pode doar sangue");
         }
@@ -24,7 +24,7 @@ public static class Atv7
         {
             Console.WriteLine("Não, você não pode doar sangue, pois, seu peso é menor que 60kg");
         }
-        else if ( peso > 60)
+        else if (peso > 60)
         {
             Console.WriteLine("Não, você não pode doar sangue, pois, sua idade não está dentro dos limites impostos");
         }

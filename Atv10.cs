@@ -10,14 +10,14 @@ public static class Atv10
         Console.Clear();
         Console.WriteLine("Valor: ");
         double num = double.Parse(Console.ReadLine()!);
-        if ((num % 2) == 0 )
+        if ((num % 2) == 0)
         {
-        Console.WriteLine("Este número é par ");
+            Console.WriteLine("Este número é par ");
         }
         else
         {
-        Console.WriteLine("Este número é impar ");
+            Console.WriteLine("Este número é impar ");
         }
     }
-    
+
 }

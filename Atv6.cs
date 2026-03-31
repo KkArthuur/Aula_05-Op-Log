@@ -27,7 +27,7 @@ public static class Atv6
 
         double Sa = ang1 + ang2 + ang3;
 
-        if ( Sa != 180 )
+        if (Sa != 180)
         {
             Console.WriteLine("Não é um triângulo ");
         }
@@ -46,7 +46,7 @@ public static class Atv6
             Console.WriteLine("É um triângulo acutângulo");
             Console.WriteLine($"De ângulos {ang1}, {ang2} e {ang3}.");
         }
-        
+
 
     }
 }

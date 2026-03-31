@@ -23,36 +23,36 @@ public static class Atv4
         Console.WriteLine("Digite a 2ª nota: ");
         double n2 = double.Parse(Console.ReadLine()!);
 
-        double mediaNs = (n1 + n2)/2;
-    //Nota A
+        double mediaNs = (n1 + n2) / 2;
+        //Nota A
         if (mediaNs <= 10 && mediaNs >= 8.5)
         {
             Console.WriteLine($"A média Final é {mediaNs} logo nota:A");
         }
-    //Nota B
+        //Nota B
         else
         {
-            if (mediaNs < 8.5 && mediaNs >=7)
+            if (mediaNs < 8.5 && mediaNs >= 7)
             {
                 Console.WriteLine($"A média Final é {mediaNs} logo nota:B");
             }
-            else 
+            else
             {
-            //Nota C
-                if (mediaNs < 7 && mediaNs >=5)
+                //Nota C
+                if (mediaNs < 7 && mediaNs >= 5)
                 {
                     Console.WriteLine($"A média Final é {mediaNs} logo nota:C");
                 }
                 else
                 {
-                //Nota D
+                    //Nota D
                     if (mediaNs < 5 && mediaNs >= 3)
                     {
                         Console.WriteLine($"A média Final é {mediaNs} logo nota:D");
                     }
                     else
                     {
-                    //Nota E
+                        //Nota E
                         if (mediaNs < 3 && mediaNs >= 0)
                         {
                             Console.WriteLine($"A média Final é {mediaNs} logo nota:E");

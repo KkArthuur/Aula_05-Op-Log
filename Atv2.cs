@@ -16,7 +16,7 @@ public static class Atv2
         {
             Console.WriteLine($"A letra {letra} é uma vogal!");
 
-        }   
+        }
         else
         {
             Console.WriteLine($"A letra {letra} é uma consoante");

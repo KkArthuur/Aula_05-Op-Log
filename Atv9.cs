@@ -11,15 +11,15 @@ public static class Atv9
         Console.Clear();
         Console.WriteLine("Valor: ");
         double num = double.Parse(Console.ReadLine()!);
-        if (num > 0 )
+        if (num > 0)
         {
-        Console.WriteLine("Este número é positivo ");
+            Console.WriteLine("Este número é positivo ");
         }
-        else if (num < 0 )
+        else if (num < 0)
         {
-        Console.WriteLine("Este número é negativo ");
+            Console.WriteLine("Este número é negativo ");
         }
         else
-        Console.WriteLine("Este número é igual a 0 ");
+            Console.WriteLine("Este número é igual a 0 ");
     }
 }

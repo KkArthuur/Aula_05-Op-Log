@@ -1,4 +1,4 @@
-public static class Atv3
+public static class Atv3Variante
 {
     public static void Executar()
     {
@@ -33,9 +33,6 @@ public static class Atv3
             num3 = aux;
         }
 
-
-
-
-        Console.WriteLine($"Os valores em ordem crescente são: \n {menorN}, {medioN} e {maiorN}. ");
+        Console.WriteLine($"Os valores em ordem crescente são: \n {num1}, {num2} e {num3}. ");
     }
 }
